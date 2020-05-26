@@ -1,3 +1,4 @@
+//solution for https://leetcode.com/problems/two-sum/
 //brute force
 class Solution {
 public:
