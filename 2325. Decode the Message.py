@@ -7,7 +7,7 @@ class Solution:
         dict = {}
         result  = []
         
-        #cleanse key of degenerate nonalphabetic characters. Ja Mata Di
+        #cleanse key of nonalphabetic characters
         #counter1 = 0
         for counter1 in key:
             if counter1.isalpha() and counter1 not in cleaned_key:
