@@ -1,4 +1,4 @@
-#This unconventional but brilliant way to approach this problem comes from wingskh on leetcode. His idea is to simply convert the instances where a numeral would subtract from a larger value (ie. IX, IV). 
+#This unconventional but brilliant way to approach this problem comes from hgrsd on leetcode. His idea is to simply convert the instances where a numeral would subtract from a larger value (ie. IX, IV). 
 #It beat out my map solution by 10ms in some instances while only using .10 MB more RAM.
 #https://leetcode.com/problems/roman-to-integer/
 class Solution:
