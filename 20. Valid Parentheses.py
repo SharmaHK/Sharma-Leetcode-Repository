@@ -1,10 +1,18 @@
 class Solution:
     def isValid(self, s: str) -> bool:
+        
+        para_start = s.count('(')
+        para_end = s.count(')')
+        brace_start = s.count('{')
+        brace_end = s.count('}')
+        brack_start = s.count('[')
+        brack_end = s.count(']')
 
-        #count how many of each are in string and compare? 
-        para_s = para_e = brack_s = brack_e = brace_s = brace_e = False
-
-        while (s):
-            if
-
-        return False
+        if(para_start != para_end):
+            return False
+        elif(brace_start != brace_end):
+            return False
+        elif(brack_start != brack_end):
+            return False
+        else:
+            return True
