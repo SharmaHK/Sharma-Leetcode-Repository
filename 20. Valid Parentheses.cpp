@@ -9,7 +9,8 @@ public:
         for (char i : s) {
             if (i == '(' || i == '{' || i == '[') {
                 stack.push(i);
-            } else {
+            } 
+            else {
                 if (stack.empty() || (i == ')' && stack.top() != '(') || (i == '}' && stack.top() != '{') || (i == ']' && stack.top() != '[')) {
                     return false;
                 }
